@@ -28,8 +28,49 @@
         <button type="button" id="button4">Hit!</button>
         <button type="button" id="button5">Heal!</button>
         <button type="button" id="button6">Yield!</button>
+
+        <!--------------------------------------------Selectors-------------------------------------------------------->
+
+        <section id = "selector1">
+            <form action="/action_page.php" id="carform">
+                <label for="fname">Écris ton nom :</label>
+                <input type="text" id="fname" name="fname">
+                <input type="submit">
+            </form>
+            <br>
+            
+            <label for="cars">Choisis ton héros !</label>
+            <select id="cars" name="carlist" form="carform">
+                <option value="volvo">Humain</option>
+                <option value="saab">Elfe</option>
+                <option value="opel">Orc</option>
+                <option value="audi">Vampire</option>
+          </select>
+        </section>
+
+        <section id = "selector2">
+            <form action="/action_page.php" id="carform">
+                <label for="fname">Écris ton nom :</label>
+                <input type="text" id="fname" name="fname">
+                <input type="submit">
+            </form>
+            <br>
+            
+            <label for="cars">Choisis ton héros !</label>
+            <select id="cars" name="carlist" form="carform">
+                <option value="volvo">Humain</option>
+                <option value="saab">Elfe</option>
+                <option value="opel">Orc</option>
+                <option value="audi">Vampire</option>
+          </select>
+        </section>
+        <!--------------------------------------------Attaques Log and display------------------------------------------------------>
+   
+        <section id="attackdisplay1">
+           <p id="greetings">Attaques</p>   
+         </section>
     </section>
-    
+    <script src="character.js"></script>
 </body>
-<script src="character.js"></script>
+
 </html>
