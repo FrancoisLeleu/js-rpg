@@ -1,4 +1,4 @@
-//Use this script to generate your character
+/*----------------------------------------------Character Generator--------------------------------*/
 function Person(race,item){
     this.race = race;
     this.item = item;
