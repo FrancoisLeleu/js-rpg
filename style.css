@@ -68,7 +68,7 @@ h2 {
     grid-column: 2;
     align-self: auto;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 22%;
 }
 #button5 {
     max-width: 50px;
@@ -77,7 +77,7 @@ h2 {
     grid-column: 2;
     align-self: auto;
     justify-content: center;
-    margin-left: 50%;
+    margin-left: 42%;
 }
 #button6 {
     max-width: 50px;
@@ -86,7 +86,7 @@ h2 {
     grid-column: 2;
     align-self: auto;
     justify-content: center;
-    margin-left: 70%;
+    margin-left: 62%;
 }
 /*------------------------------------Dropdown----------------------------------------*/
 #selector1, #selector2 {
@@ -101,6 +101,7 @@ h2 {
     margin-right: auto;
     grid-row: span 3;
     grid-column: span 2;
+    bottom: 50px;
     position: relative;
     background-color:lightgray;
     font-size:20px;

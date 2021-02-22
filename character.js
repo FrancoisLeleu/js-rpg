@@ -1,7 +1,7 @@
 //Use this script to generate your character
 function Person(race,item){
-    this.race = human;
-    this.item = sword;
+    this.race = race;
+    this.item = item;
     this.currenthealth = 100;
     this.maxHealth = 100;
     
@@ -18,5 +18,4 @@ function Person(race,item){
     this.displayChar = function(){
         return console.log(`I am a ${this.race}, I wield a ${this.item}, my total health point are ${this.maxHealth}`);
     };
-    
 }
