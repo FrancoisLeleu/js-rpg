@@ -4,6 +4,7 @@ body {
 h1 {
     text-align: center;
 }
+/*-----------------------------------The Grid-------------------------------------*/
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -30,6 +31,7 @@ h2 {
     border: solid 3px black;
     margin-right: 10px;
 }
+/*------------------------------------Buttons Left----------------------------------------*/
 #button1 {
     max-width: 50px;
     max-height: 50px;
@@ -57,6 +59,7 @@ h2 {
     justify-content: center;
     margin-left: 70%;
 }
+/*------------------------------------Buttons Right----------------------------------------*/
 #button4 {
     max-width: 50px;
     max-height: 50px;
