@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(247, 239, 213);
+}
+h1 {
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    column-gap: 20px;
+    border: solid 3px black;
+}
+h2 {
+    grid-column: span 2;
+    grid-row: 1;
+    text-align:center;
+    color:lightgray;
+    font-size:25px; 
+}
+#case1 {
+    grid-column: 1;
+    grid-row: 2;
+    border: solid 3px black;
+    margin-left:10px ;
+}
+#case2 {
+    grid-column: 2;
+    grid-row: 2;
+    border: solid 3px black;
+    margin-right: 10px;
+}
+#button1 {
+    max-width: 50px;
+    max-height: 50px;
+    grid-row: 3;
+    grid-column: 1;
+    align-self: auto;
+    justify-content: center;
+    margin-left: 30%;
+}
+#button2 {
+    max-width: 50px;
+    max-height: 50px;
+    grid-row: 3;
+    grid-column: 1;
+    align-self: auto;
+    justify-content: center;
+    margin-left: 50%;
+}
+#button3 {
+    max-width: 50px;
+    max-height: 50px;
+    grid-row: 3;
+    grid-column: 1;
+    align-self: auto;
+    justify-content: center;
+    margin-left: 70%;
+}
+#button4 {
+    max-width: 50px;
+    max-height: 50px;
+    grid-row: 3;
+    grid-column: 2;
+    align-self: auto;
+    justify-content: center;
+    margin-left: 30%;
+}
+#button5 {
+    max-width: 50px;
+    max-height: 50px;
+    grid-row: 3;
+    grid-column: 2;
+    align-self: auto;
+    justify-content: center;
+    margin-left: 50%;
+}
+#button6 {
+    max-width: 50px;
+    max-height: 50px;
+    grid-row: 3;
+    grid-column: 2;
+    align-self: auto;
+    justify-content: center;
+    margin-left: 70%;
+}
