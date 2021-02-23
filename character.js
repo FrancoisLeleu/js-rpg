@@ -1,3 +1,10 @@
+/*--------------------------------------------Character's Name----------------------------------*/
+
+document.getElementById("Herm").style.display = "none";
+document.getElementById("Tyna").style.display = "none";
+document.getElementById("Raynel").style.display = "none";
+document.getElementById("Grent").style.display = "none";
+
 /*----------------------------------------------Character Generator--------------------------------*/
 function Person(race,item){
     this.race = race;
