@@ -42,7 +42,7 @@ h2 {
 }
 /*------------------------------------Buttons Left----------------------------------------*/
 #button1 {
-    max-width: 50px;
+    max-width: 65px;
     max-height: 50px;
     grid-row: 4;
     grid-column: 1;
@@ -51,7 +51,7 @@ h2 {
     margin-left: 30%;
 }
 #button2 {
-    max-width: 50px;
+    max-width: 65px;
     max-height: 50px;
     grid-row: 4;
     grid-column: 1;
@@ -60,7 +60,7 @@ h2 {
     margin-left: 50%;
 }
 #button3 {
-    max-width: 50px;
+    max-width: 65px;
     max-height: 50px;
     grid-row: 4;
     grid-column: 1;
@@ -70,7 +70,7 @@ h2 {
 }
 /*------------------------------------Buttons Right----------------------------------------*/
 #button4 {
-    max-width: 50px;
+    max-width: 65px;
     max-height: 50px;
     grid-row: 4;
     grid-column: 2;
@@ -79,7 +79,7 @@ h2 {
     margin-left: 22%;
 }
 #button5 {
-    max-width: 50px;
+    max-width: 65px;
     max-height: 50px;
     grid-row: 4;
     grid-column: 2;
@@ -88,7 +88,7 @@ h2 {
     margin-left: 42%;
 }
 #button6 {
-    max-width: 50px;
+    max-width: 65px;
     max-height: 50px;
     grid-row: 4;
     grid-column: 2;
