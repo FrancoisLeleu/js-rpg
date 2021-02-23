@@ -17,6 +17,8 @@ h1 {
     background-color: rgb(230, 230, 230, 0.9);
     color: rgb(247, 239, 213,);
     border: solid 5px white;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 h2 {
     grid-column: span 2;

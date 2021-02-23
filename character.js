@@ -7,7 +7,6 @@ document.getElementById("Grent").style.display = "none";
 
 /*---------------------------------------------Display None-------------------------------------*/
 
-
 document.getElementById("attackdisplay1").style.display = "none";
 
 /*----------------------------------------------Character Generator--------------------------------*/
