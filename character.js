@@ -26,3 +26,58 @@ function Person(race,item){
         return console.log(`I am a ${this.race}, I wield a ${this.item}, my total health point are ${this.maxHealth}`);
     };
 }
+/*------------------------------------------------Races des Personnages-----------------------------------------------*/
+const race = [
+    {
+        race: "Humain",
+        name: "Herm",
+        HP: 100,
+        ATK: 100,
+        DEF: 120,
+        DEX: 100,
+    },
+    {
+        race: "Elfe",
+        name: "Tyna",
+        HP: 100,
+        ATK: 100,
+        DEF: 100,
+        DEX: 130,
+    },
+    {
+        race: "Orc",
+        name: "Raynel",
+        HP: 140,
+        ATK: 100,
+        DEF: 100,
+        DEX: 100,
+    },
+    {
+        race: "Vampire",
+        name: "Grent",
+        HP: 100,
+        ATK: 100,
+        DEF: 100,
+        DEX: 100,
+        CAP: "stealhp"
+    },
+]
+/*------------------------------------------------Items-----------------------------------------------*/
+const items = [
+    {
+        type: "bottes",
+        effet: (DEX + 30),
+    },
+    {
+        type: "baton",
+        effet: (HP + 20),
+    },
+    {
+        type: "epee",
+        effet: (ATK + 30),
+    },
+    {
+        type: "arc",
+        effet: ("atkx2"),
+    },
+]
