@@ -1,5 +1,6 @@
 body {
     background-color: rgb(247, 239, 213);
+    background-image: url(images/dq3.jpg);
 }
 h1 {
     text-align: center;
@@ -11,7 +12,7 @@ h1 {
     grid-template-rows: 1fr 1fr 4fr 1fr;
     column-gap: 20px;
     row-gap: 10px;
-    border: solid 3px black;
+    border: solid 5px white;
 }
 h2 {
     grid-column: span 2;
@@ -23,13 +24,13 @@ h2 {
 #case1 {
     grid-column: 1;
     grid-row: 3;
-    border: solid 3px black;
+    border: solid 5px white;
     margin-left:10px ;
 }
 #case2 {
     grid-column: 2;
     grid-row: 3;
-    border: solid 3px black;
+    border: solid 5px white;
     margin-right: 10px;
 }
 /*------------------------------------Buttons Left----------------------------------------*/
