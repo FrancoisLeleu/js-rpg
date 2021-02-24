@@ -42,6 +42,33 @@ h2 {
     background-color: whitesmoke;
     margin-right: 10px;
 }
+#health {
+    grid-column: 1;
+    grid-row: 3;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 7px;
+    border-radius: 20px;
+}
+#health2 {
+    grid-column: 2;
+    grid-row: 3;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 7px;
+    border-radius: 20px;
+}
+progress {
+    background: brown;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+progress[value]::-webkit-progress-value { 
+    background-color:red
+  
+
+}
 /*------------------------------------Buttons Left----------------------------------------*/
 #button1 {
     max-width: 65px;
@@ -50,7 +77,7 @@ h2 {
     grid-column: 1;
     align-self: auto;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 27%;
 }
 #button2 {
     max-width: 65px;
@@ -59,7 +86,7 @@ h2 {
     grid-column: 1;
     align-self: auto;
     justify-content: center;
-    margin-left: 50%;
+    margin-left: 47%;
 }
 #button3 {
     max-width: 65px;
@@ -68,7 +95,7 @@ h2 {
     grid-column: 1;
     align-self: auto;
     justify-content: center;
-    margin-left: 70%;
+    margin-left: 67%;
 }
 /*------------------------------------Buttons Right----------------------------------------*/
 #button4 {
@@ -118,7 +145,7 @@ h2 {
     font-size:20px;
     border-radius:10px;
     padding:20px;
-    width:200px;
+    width:180px;
     height: 550px;
     height:auto;
     place-self:center;

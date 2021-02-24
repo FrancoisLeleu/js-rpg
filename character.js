@@ -8,6 +8,13 @@ document.getElementById("Grent").style.display = "none";
 /*---------------------------------------------Display None-------------------------------------*/
 
 document.getElementById("attackdisplay1").style.display = "none";
+var tableauBoutons = document.querySelectorAll(".tonbou")
+
+tableauBoutons.forEach(element => {
+    element.style.display = "none"
+
+});
+
 
 /*----------------------------------------------Character Generator--------------------------------*/
 function Person(race,item){
