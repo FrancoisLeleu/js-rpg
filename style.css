@@ -54,7 +54,8 @@ h2 {
     grid-column: 2;
     grid-row: 3;
     position: relative;
-    margin-left: 10px;
+    justify-self: end;
+    margin-right: 20px;
     margin-top: 7px;
     border-radius: 20px;
 }
@@ -66,8 +67,25 @@ progress {
 }
 progress[value]::-webkit-progress-value { 
     background-color:red
-  
+}
+/*------------------------------------Images Personnages----------------------------------*/
+/*                                      EXPLICATIONS :
+Les images et ID portant le chiffre 1 sont faites pour aller sur la gauche de l'écran ( pour le joueur 1)
+    Les images et les ID portant le chiffre 2 sont faites pour aller sur la droite de l'écran ( pour le joueur 2 )*/
 
+/*-------------------------Côté Gauche de l'écran ( joueur 1) ------------------------------*/
+#hero1 {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+/*-------------------------Côté Droit de l'écran ( joueur 2) ------------------------------*/
+#elfe2 {
+    grid-column: 2;
+    grid-row: 3;
+
+    margin-top: 20px;
 }
 /*------------------------------------Buttons Left----------------------------------------*/
 #button1 {
