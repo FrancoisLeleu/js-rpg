@@ -1,7 +1,7 @@
 /*--------------------------------------------Character's Name----------------------------------*/
 
 document.getElementById("Herm").style.display = "none";
-document.getElementById("Tyna").style.display = "none";
+document.getElementById("Tyn").style.display = "none";
 document.getElementById("Raynel").style.display = "none";
 document.getElementById("Grent").style.display = "none";
 
@@ -12,7 +12,6 @@ var tableauBoutons = document.querySelectorAll(".tonbou")
 
 tableauBoutons.forEach(element => {
     element.style.display = "none"
-
 });
 
 
