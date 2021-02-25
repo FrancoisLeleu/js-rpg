@@ -42,32 +42,81 @@ h2 {
     background-color: whitesmoke;
     margin-right: 10px;
 }
-#health {
-    grid-column: 1;
+/*-------------------------------------------------------Barres de Vie---------------------------------------*/
+.health-bar {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-column: 1 ;
     grid-row: 3;
-    position: relative;
     margin-left: 20px;
     margin-top: 7px;
-    border-radius: 20px;
-}
-#health2 {
+    width: 250px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 7px;
+    padding: 5px;
+    background: #ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .bar {
+    background: #c54;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    transition: width .5s linear;
+  }
+  
+  .hit {
+    background: rgba(255,255,255,0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0px;
+    transition: width .5s linear;
+  }
+  /*------------------------------------------------------------Barre de vie 2 ------------*/
+  .health-bar2 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     grid-column: 2;
     grid-row: 3;
-    position: relative;
+    margin-left: 20px;
+    margin-top: 7px;
+    width: 250px;
+    height: 40px;
     justify-self: end;
     margin-right: 20px;
     margin-top: 7px;
-    border-radius: 20px;
-}
-progress {
-    background: brown;
-    width: 250px;
+    padding: 5px;
+    background: #ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .bar2 {
+    background: #c54;
+    width: 100%;
     height: 30px;
-    border-radius: 20px;
-}
-progress[value]::-webkit-progress-value { 
-    background-color:red
-}
+    position: relative;
+    transition: width .5s linear;
+  }
+  
+  .hit2 {
+    background: rgba(255,255,255,0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0px;
+    transition: width .5s linear;
+  }
 /*------------------------------------Images Personnages----------------------------------*/
 /*                                      EXPLICATIONS :
 Les images et ID portant le chiffre 1 sont faites pour aller sur la gauche de l'écran ( pour le joueur 1)
@@ -215,4 +264,7 @@ Les images et ID portant le chiffre 1 sont faites pour aller sur la gauche de l'
     height: 550px;
     height:auto;
     place-self:center;
+  }
+  .hidden {
+      display: none;
   }
